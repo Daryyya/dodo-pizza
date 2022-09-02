@@ -498,6 +498,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .hero__container {
+  padding-top: 10px;
   max-width: 1120px;
   margin: 0 auto;
 }
@@ -517,15 +518,18 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 250px;
   box-shadow: 0px 6px 25px rgba(6, 5, 50, 0.05);
   border-radius: 10px;
+  transition: 0.3s;
 }
 .card:not(:last-child) {
   margin-right: 20px;
 }
 .card:hover {
   box-shadow: 6px 6px 6px rgba(6, 5, 50, 0.05);
+  transition: 0.3s;
 }
 .card:active {
   box-shadow: none;
+  transition: 0.3s;
 }
 .card__img {
   margin-right: 22px;
