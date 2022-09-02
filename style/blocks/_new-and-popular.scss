@@ -1,0 +1,50 @@
+.new-and-popular {
+
+    padding: 35px 0;
+
+    // &__container {}
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px 18px;
+    min-width: 250px;
+    box-shadow: 0px 6px 25px rgba(6, 5, 50, 0.05);
+    border-radius: 10px;
+
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    &:hover {
+        box-shadow: 6px 6px 6px rgba(6, 5, 50, 0.05);
+    }
+
+    &:active {
+        box-shadow: none;
+    }
+
+    &__img {
+        margin-right: 22px;
+    }
+
+    &__info {
+        display: flex;
+        min-width: 116px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.item-name {
+    margin-bottom: 4px;
+}
+
+// .item-price {}
