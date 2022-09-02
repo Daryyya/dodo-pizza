@@ -472,22 +472,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 9px 20px;
   background-color: #F96900;
   border-radius: 1000px;
-  transition: 0.3s;
-}
-.btn:hover {
-  background-color: #FFF0E6;
-  transition: 0.3s;
-}
-.btn__link {
   font-weight: 600;
   font-size: 16px;
   line-height: 21.82px;
   color: #fff;
   transition: 0.3s;
 }
-.btn__link:hover {
-  color: #D15700;
+.btn:hover {
+  background-color: #FFF0E6;
   transition: 0.3s;
+  color: #D15700;
 }
 
 @media (max-width: 768px) {

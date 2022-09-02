@@ -40,24 +40,16 @@
     padding: 9px 20px;
     background-color: #F96900;
     border-radius: 1000px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.82px;
+    color: #fff;
     transition: 0.3s;
 
     &:hover {
         background-color: #FFF0E6;
         transition: 0.3s;
-    }
-
-    &__link {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 21.82px;
-        color: #fff;
-        transition: 0.3s;
-
-        &:hover {
-            color: #D15700;
-            transition: 0.3s;
-        }
+        color: #D15700;
     }
 }
 
