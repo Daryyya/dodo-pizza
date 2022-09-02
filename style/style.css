@@ -393,4 +393,52 @@ h1, h2, h3, h4, h5, h6 {
 
 * {
   font-family: var(--font-family);
+}
+
+.container {
+  max-width: 1120px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.header {
+  padding: 25px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tel {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.55px;
+  color: #000;
+}
+
+.free-call {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20.46px;
+  color: #999999;
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 12px 0px;
+  }
+  .header__contact-info {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
