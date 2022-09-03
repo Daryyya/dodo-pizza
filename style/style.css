@@ -504,6 +504,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .new-and-popular {
+  overflow: hidden;
   padding: 35px 0;
 }
 .new-and-popular__wrapper {
