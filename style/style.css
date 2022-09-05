@@ -565,15 +565,18 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 250px;
 }
 .item__name {
+  max-width: 201px;
+  max-height: 54px;
   margin: 5px 0 10px 0;
   font-weight: 600;
   font-size: 20px;
   line-height: 27.28px;
   color: #000;
+  flex: 1 1 auto;
 }
 .item__desc {
   max-width: 235px;
-  max-height: 57px;
+  max-height: 95px;
   font-weight: 400;
   font-size: 14px;
   line-height: 19.1px;
