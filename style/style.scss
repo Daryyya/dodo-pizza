@@ -1,9 +1,9 @@
-@import "./config/vars.scss";
-@import "./config/reset.scss";
-@import "./config/settings.scss";
+@import "./config/_vars.scss";
+@import "./config/_reset.scss";
+@import "./config/_settings.scss";
 @import "./blocks/_header.scss";
 @import "./blocks/_menu.scss";
 @import "./blocks/_hero.scss";
-@import "./blocks/new-and-popular.scss";
-@import "./blocks/item-group.scss";
-@import "./blocks/card.scss";
+@import "./blocks/_new-and-popular.scss";
+@import "./blocks/_item-group.scss";
+@import "./blocks/_item.scss";

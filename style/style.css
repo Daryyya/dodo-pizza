@@ -546,6 +546,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4px;
 }
 
+.item-group__container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
 .item-group__title {
   margin-bottom: 40px;
 }

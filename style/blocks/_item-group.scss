@@ -1,5 +1,9 @@
 .item-group {
-    &__container {}
+
+    &__container {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
 
     &__title {
         margin-bottom: 40px;
