@@ -544,4 +544,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .item-name {
   margin-bottom: 4px;
+}
+
+.item-group__title {
+  margin-bottom: 40px;
+}
+.item-group__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 250px;
+}
+.item__name {
+  margin: 5px 0 10px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.28px;
+  color: #000;
+}
+.item__desc {
+  max-width: 235px;
+  max-height: 57px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.1px;
+  margin-bottom: 10px;
+  flex: 1 1 auto;
+}
+.item__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item__price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.82px;
+}
+.item__btn {
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */

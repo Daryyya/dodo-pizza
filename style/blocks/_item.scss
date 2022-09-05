@@ -1,0 +1,39 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 250px;
+
+    &__name {
+        margin: 5px 0 10px 0;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27.28px;
+        color: #000;
+    }
+
+    &__desc {
+        max-width: 235px;
+        max-height: 57px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19.1px;
+        margin-bottom: 10px;
+        flex: 1 1 auto;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21.82px;
+    }
+
+    &__btn {
+        margin-right: 20px;
+    }
+}

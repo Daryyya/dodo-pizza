@@ -1,0 +1,13 @@
+.item-group {
+    &__container {}
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
